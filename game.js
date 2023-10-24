@@ -1,3 +1,5 @@
+//TODO: сделать все по нормальному
+
 const ebalo = document.getElementById('ebalo');
 const imya = document.getElementById('imya');
 const text = document.getElementById('text');
