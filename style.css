@@ -1,0 +1,203 @@
+body {
+    color: #ebedfc;
+    font-size: 20px;
+    margin: 0;
+    background: #0F0F0F;
+    font-family: 'PT Mono', monospace;
+}
+
+p {
+    margin: 0;
+}
+
+#home {
+    position: fixed;
+    top: 0;
+    height: 87%;
+    padding: 8px;
+    text-align: center;
+}
+
+.ebalo {
+    margin-top: 8px;
+    font-size: 160px;
+}
+
+.imya {
+    margin: 8px 0 24px 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.text {
+    margin-top: 48px;
+}
+
+.choices {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.choice {
+    color: #ebedfc;
+    font-size: 20px;
+    font-family: 'PT Mono', monospace;
+    text-decoration: underline;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+#backpack {
+    display: none;
+    width: 96%;
+    height: 87%;
+    position: fixed;
+    top: 0;
+    padding: 8px;
+}
+
+#backpack p {
+    margin-top: 8px;
+}
+
+.inventory {
+    margin-top: 16px;
+}
+
+td {
+    border: #ebedfc solid 2px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+td div {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    font-size: 56px;
+}
+
+#map {
+    display: none;
+    width: 96%;
+    height: 87%;
+    position: fixed;
+    top: 0;
+    padding: 8px;
+}
+
+#settings {
+    font-size: 24px;
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    height: 87%;
+    padding: 8px;
+    text-align: center;
+}
+
+#save {
+    margin-top: 128px;
+    margin-bottom: 8px;
+}
+
+.soundControl {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.soundControl span {
+    font-size: 40px;
+}
+
+.sliderBorder {
+    position: relative;
+    margin-top: 18px;
+    background-color: none;
+    border: #ebedfc 2px;
+    border-radius: 10px;
+    width: 200px;
+    height: 3px;
+}
+
+.slider {
+    background: #ebedfc;
+    border-radius: 10px;
+    width: 200px;
+    height: 3px;
+}
+
+.knob {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: #ebedfc;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+#gentleman {
+    margin-bottom: 8px;
+}
+
+.control {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+button {
+    background: #0F0F0F;
+    border: none;
+    border-radius: 10px;
+    width: 74px;
+    display: grid;
+    place-content: center;
+}
+
+.icon {
+    font-size: 64px;
+    color: #ebedfc;
+}
+
+.modal {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: none;
+    background: #0F0F0F;
+    border: #ebedfc solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 8px 16px 16px 16px;
+}
+
+.modal span {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 32px;
+}
+
+.modalHeader {
+    margin-bottom: 16px;
+    font-size: 24px;
+    text-decoration: underline;
+}

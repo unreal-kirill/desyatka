@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desyatka</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="c:/.stuff/projects/desyatka/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="home">
+            <span class="material-symbols-outlined ebalo" id="ebalo"></span>
+            <p class="imya" id="imya"></p>
+            <p class="text" id="text"></p>
+            <div class="choices">
+                <button class="choice" id="choice1"></button>
+                <button class="choice" id="choice2"></button>
+                <button class="choice" id="choice3"></button>
+                <button class="choice" id="choice4"></button>
+            </div>
+        </div>
+        <div id="backpack">
+            <p><span id="hours"></span>:<span id="mins"></span>, <span id="day"></span></p>
+            <p id="fatigue"></p>
+            <p id="mental"></p>
+            <p id="respect"></p>
+            <table class="inventory" cellspacing="8">
+                <tbody>
+                    <tr>
+                        <td><div><span class="material-symbols-outlined cell" id="cell1"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell2"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell3"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell4"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><span class="material-symbols-outlined cell" id="cell5"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell6"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell7"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell8"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><span class="material-symbols-outlined cell" id="cell9"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell10"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell11"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell12"></span></div></td>
+                    </tr>
+                    <tr>
+                        <td><div><span class="material-symbols-outlined cell" id="cell13"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell14"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell15"></span></div></td>
+                        <td><div><span class="material-symbols-outlined cell" id="cell16"></span></div></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div id="map">
+            <span class="material-symbols-outlined" class="ebalo">sentiment_very_dissatisfied</span>
+            <p class="imya"></p>
+            <p class="text"></p>
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+            <div class="line4"></div>
+            <div class="line5"></div>
+            <div class="line6"></div>
+            <div class="line7"></div>
+            <div class="line8"></div>
+            <p>этаж</p>
+            <div class="etazhi">
+                <div class="etazh1"></div>
+                <div class="etazh2"></div>
+                <div class="etazh3"></div>
+            </div>
+        </div>
+        <div id="settings">
+            <p id="save">сохранить</p>
+            <p id="chooseSave">выбрать сохранение</p>
+            <div class="soundControl">
+                <span class="material-symbols-outlined">volume_down</span>
+                <div class="sliderBorder">
+                    <div class="slider"></div>
+                    <div class="knob"></div>
+                </div>
+            </div>
+            <p id="gentleman">язык</p>
+            <p id="about">об авторе</p>
+        </div>
+    </div>
+    <div class="control">
+        <button><span class="material-symbols-outlined icon" id="homeBtn" style="opacity: 0.7;">home</span></button>
+        <button><span class="material-symbols-outlined icon" id="backpackBtn">backpack</span></button>
+        <button><span class="material-symbols-outlined icon" id="mapBtn">map</span></button>
+        <button><span class="material-symbols-outlined icon" id="settingsBtn">settings</span></button>
+    </div>
+    <div id="modal1"></div>
+    <div id="modal2"></div>
+    <div id="modal3"></div>
+    <div id="modal4"></div>
+    <div id="modal5"></div>
+    <div id="modal6"></div>
+    <div id="modal7"></div>
+    <div id="modal8"></div>
+    <div id="modal9"></div>
+    <div id="modal10"></div>
+    <div id="modal11"></div>
+    <div id="modal12"></div>
+    <div id="modal13"></div>
+    <div id="modal14"></div>
+    <div id="modal15"></div>
+    <div id="modal16"></div>
+    <div class="modal" id="saveModal">
+        <span class="material-symbols-outlined" id="closeSaveModal">close</span>
+        <p class="modalHeader">сохранение</p>
+        <p>хуй тебе а не сохранение<br>размечтался блять</p>
+    </div>
+    <div class="modal" id="chooseSaveModal">
+        <span class="material-symbols-outlined" id="closeChooseSaveModal">close</span>
+        <p class="modalHeader">выбор сохранения</p>
+        <p>хуй тебе а выбор сохранения<br>размечтался блять</p>
+    </div>
+    <div class="modal" id="gentlemanModal">
+        <span class="material-symbols-outlined" id="closeGentlemanModal">close</span>
+        <p class="modalHeader">выбор языка</p>
+        <p style="margin-bottom: 8px;">русский</p>
+        <p>культурный русский</p>
+    </div>
+    <div class="modal" id="aboutModal">
+        <span class="material-symbols-outlined" id="closeAboutModal">close</span>
+        <p class="modalHeader">об авторе</p>
+        <p>а хуй тебе, не буду же я себя раскрывать<br>могу только дать загадочную наводку:<br>“я ебу собак”<br>если что, я точно не дмитрий сафронов (точно точно)</p>
+    </div>
+    <script src="c:/.stuff/projects/desyatka/navigation.js"></script>
+    <script src="c:/.stuff/projects/desyatka/stats.js"></script>
+    <script src="c:/.stuff/projects/desyatka/backpack.js"></script>
+    <script src="c:/.stuff/projects/desyatka/map.js"></script>
+    <script src="c:/.stuff/projects/desyatka/settings.js"></script>
+    <script src="c:/.stuff/projects/desyatka/game.js"></script>
+</body>
+</html>
